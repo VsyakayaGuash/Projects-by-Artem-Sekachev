@@ -184,9 +184,9 @@ int main()
 					{
 						if (guess == "quit")
 							break;
-						if (guess == theWord)
-							cout << "Ура! Вы угадали слово!\n\n";
-						else
+						/*if (guess == theWord)
+							cout << "Ура! Вы угадали слово!\n\n";*/
+						if (guess != theWord)
 						{
 							cout << "Извините, это не то слово :(\n";
 							guess = "quit";
